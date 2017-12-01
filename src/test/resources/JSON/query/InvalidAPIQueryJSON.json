@@ -1,0 +1,29 @@
+{
+  "searchRequest": {
+    "inquiryData": {
+      "requestType": "SEARCH",
+      "correlationId": "123",
+      "searchToken": "searchToken",
+      "clientCode": "ACRO",
+      "usNames": {
+        "CURRENT": {
+          "firstName": "Dusan",
+          "lastName": "Middlesworth",
+          "middleName": "middleName",
+          "prefix": null,
+          "suffix": null,
+          "identityKey": null
+        }
+      },
+      "ssn": "399688",
+      "names": {},
+      "entityKey": null,
+      "gender": null,
+      "identities": [],
+      "dateOfBirth": null,
+      "addresses": {},
+      "countryOfBirth": null,
+      "countryOfCitizenship": null
+    }
+  }
+}

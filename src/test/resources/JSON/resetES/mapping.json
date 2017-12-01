@@ -1,0 +1,95 @@
+{
+  "mappings": {
+    "identity": {
+      "properties": {
+        "USPersonData": {
+          "properties": {
+            "entityKey": {
+              "type": "text"
+            },
+            "ssn": {
+              "type": "text"
+            },
+            "dateOfBirth": {
+              "type": "date"
+            },
+            "countryOfCitizenship": {
+              "type": "text"
+            },
+            "countryOfBirth": {
+              "type": "text"
+            },
+            "gender": {
+              "type": "text"
+            },
+            "names": {
+              "type": "nested"
+            },
+            "usEntityKey": {
+              "properties": {
+                "customerIdentity": {
+                  "type": "text"
+                }
+              }
+            },
+            "identities": {
+              "type": "nested",
+              "properties": {
+                "identityKey": {
+                  "type": "text"
+                }
+              }
+            },
+            "addresses": {
+              "type": "nested"
+            },
+            "usNames": {
+              "type": "nested",
+              "properties": {
+                "CURRENT": {
+                  "properties": {
+                    "firstName": {
+                      "type": "text"
+                    },
+                    "lastName": {
+                      "type": "text"
+                    },
+                    "middleName": {
+                      "type": "text"
+                    }
+                  }
+                },
+                "FORMER": {
+                  "properties": {
+                    "firstName": {
+                      "type": "text"
+                    },
+                    "lastName": {
+                      "type": "text"
+                    },
+                    "middleName": {
+                      "type": "text"
+                    }
+                  }
+                },
+                "FORMER_TO_FORMER": {
+                  "properties": {
+                    "firstName": {
+                      "type": "text"
+                    },
+                    "lastName": {
+                      "type": "text"
+                    },
+                    "middleName": {
+                      "type": "text"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "requestType":"test",
+  "consumerIdentity":{
+    "names":[
+      {
+        "identifier": "CURRENT",
+        "prefix": "Mr.",
+        "firstName": "Koblas",
+        "lastName": "Miller",
+        "middleName": "M",
+        "suffix": "Jr."
+      }
+    ],
+    "ssn": "321551",
+    "addresses": [
+      {
+        "addressLine1": "line two bCSVaxdplzISZgKBrTkvXjxyLCQpEB"
+      }
+    ]
+  }
+}

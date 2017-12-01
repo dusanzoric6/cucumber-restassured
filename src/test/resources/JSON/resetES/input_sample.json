@@ -1,0 +1,25 @@
+{
+  "USPersonData": {
+    "usNames": {
+      "CURRENT": {
+        "firstName": "Anthia",
+        "lastName": "Middlesworth",
+        "middleName": "middleName",
+        "prefix": null,
+        "suffix": null,
+        "identityKey": null
+      }
+    },
+    "ssn": "399688",
+    "names": {},
+    "usEntityKey": {
+      "customerIdentity": "54321"
+    },
+    "gender": null,
+    "identities": [],
+    "dateOfBirth": null,
+    "addresses": {},
+    "countryOfBirth": null,
+    "countryOfCitizenship": null
+  }
+}
